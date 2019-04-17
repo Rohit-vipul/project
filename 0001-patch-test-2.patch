@@ -1,0 +1,27 @@
+From 6e9d984ac9fb6c82d92e1906f01c95e754ce62ce Mon Sep 17 00:00:00 2001
+From: testuser <testuser@gmail.com>
+Date: Tue, 16 Apr 2019 12:08:51 +0000
+Subject: [PATCH] patch test 2
+
+---
+ fileone | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+diff --git a/fileone b/fileone
+index e4708f5..f231744 100644
+--- a/fileone
++++ b/fileone
+@@ -3,7 +3,6 @@ line 2 file 1
+ changes made by test1 user
+ test user added a line
+ difference added modified file
+-patch testing lines 
+-hello 
+-how are you 
+-testing file 
++patch testing lines
++without white space
++
+-- 
+1.8.3.1
+
